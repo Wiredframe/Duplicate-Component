@@ -1,40 +1,26 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# Figma Duplicate Main Component Plugin
 
-  https://www.figma.com/plugin-docs/plugin-quickstart/
+This is a Figma plugin that duplicates the selected main component and adds a "copy" suffix to the name of the new component. It also positions the new component 50px to the right of the original component and focuses the view on the new component without zooming.
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Usage
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+1. Select a main component on the page.
+2. Run the plugin from the Plugins menu or using the keyboard shortcut.
+3. The plugin will duplicate the selected component, add a "copy" suffix to its name, and position it 50px to the right of the original component.
+4. The plugin will also select the new component and focus the view on it without zooming.
 
-  https://nodejs.org/en/download/
+## Installation
 
-Next, install TypeScript using the command:
+1. Clone this repository or download the ZIP file.
+2. Open Figma and go to the Plugins menu.
+3. Click "Create new plugin" and choose "Link existing plugin".
+4. Select the `manifest.json` file from the repository or ZIP file.
+5. The plugin will be added to your Plugins menu.
 
-  npm install -g typescript
+## License
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+This plugin is licensed under the MIT License. See the `LICENSE` file for details.
 
-  npm install --save-dev @figma/plugin-typings
+---
 
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Feel free to customize this description to fit your needs.
