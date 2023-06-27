@@ -1,13 +1,13 @@
 # Figma Duplicate Main Component Plugin
 
-This is a Figma plugin that duplicates the selected main component and adds a "copy" suffix to the name of the new component. It also positions the new component 50px to the right of the original component and focuses the view on the new component without zooming.
+This is a Figma plugin that duplicates the selected main component and adds a "copy" suffix to the name of the new component. It also positions the new component 50px to the right of the original component and focuses the view on the new component.
 
 ## Usage
 
 1. Select a main component on the page.
 2. Run the plugin from the Plugins menu or using the keyboard shortcut.
 3. The plugin will duplicate the selected component, add a "copy" suffix to its name, and position it 50px to the right of the original component.
-4. The plugin will also select the new component and focus the view on it without zooming.
+4. The plugin will also select the new component and focus the view on. 
 
 ## Installation
 
